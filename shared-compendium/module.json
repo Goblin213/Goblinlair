@@ -15,15 +15,14 @@
   "packs": [
     {
       "name": "monster-hunter-class",
-      "label": "Monster Hunter Class",
+      "label": "Clases Custom",
       "path": "packs/monster-hunter-class",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     }
   ]
 }
