@@ -1,0 +1,29 @@
+{
+  "id": "shared-compendium",
+  "title": "Shared compendium",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Goblin",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "monster-hunter-class",
+      "label": "Monster Hunter Class",
+      "path": "packs/monster-hunter-class",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
